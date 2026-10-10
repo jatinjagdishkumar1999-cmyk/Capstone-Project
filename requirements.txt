@@ -1,0 +1,4 @@
+pandas
+numpy
+matplotlib
+google-genai   # only needed for the online Gemini path; the offline path needs nothing extra
