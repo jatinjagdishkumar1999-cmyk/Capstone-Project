@@ -1,0 +1,10 @@
+# source: offline (no API key configured)
+
+SITUATION
+After cleaning the order data (standardised payment labels, removed double-submitted duplicates, imputed missing values), Mamaearth's verified revenue is INR 97,358.30. The raw feed showed INR 99,860.20; the INR 2,501.90 difference is entirely duplicate orders and nothing else. The true peak month is March, at INR 20,318.90. January only appeared to lead (INR 29,582.10) because two bulk orders landed in it; without them it was INR 11,637.10.
+
+COMPLICATION
+Returns are concentrated, not evenly spread. Cash-on-delivery orders are returned at 44.4%, against 14.7% for card and 18.9% for UPI. The blended figure hides the worst pocket: COD orders in Tier-2 cities are returned at 54.5%. Discounts do not explain this, so deeper promotions will not fix it.
+
+RESOLUTION
+Regional ops and finance should target the COD + Tier-2 segment first: pilot order confirmation calls or OTP-based delivery, nudge buyers toward prepaid payment, and track the return rate per segment each month. Report revenue on the de-duplicated, outlier-aware basis so March is read as the genuine peak.
